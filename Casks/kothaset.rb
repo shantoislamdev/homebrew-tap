@@ -14,22 +14,22 @@ cask "kothaset" do
   on_macos do
     on_intel do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_darwin_amd64.tar.gz"
-      sha256 "1ec9483dc144b7462dfbc84ed9ed66fcb88777ff77216be6039f4f99491e1c17"
+      sha256 "1040ffb0ccc3944d515f71a4d3d75f23e0673d9109f057a78c57b341d51a2ef3"
     end
     on_arm do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_darwin_arm64.tar.gz"
-      sha256 "c2fa5267ac46c11cbcf76ff7a001159d919c628ea5f3ee694cbf1fd7eb91a480"
+      sha256 "d2bf1f51faf94861757b6258430b7b8def026043fd8a5077298fb1bfc35543f5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_linux_amd64.tar.gz"
-      sha256 "58c83662a96c8b8af1584b309459cae8c87261598d7369d147531d2eec92aac1"
+      sha256 "cd8a67c4e1a45f7ec3ba752a3dcdbe1b944302686cee1f5d5a08a97f30b45283"
     end
     on_arm do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_linux_arm64.tar.gz"
-      sha256 "7cadb364fa662f0425b95db06917a35ebf933c3bbf3977f2afeee5515d8f2178"
+      sha256 "f2fda26b6564f2451e96572d0d0ed37caca7a57c51dff3f1d126778a8b089d4f"
     end
   end
 
