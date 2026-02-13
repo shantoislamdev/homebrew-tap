@@ -3,7 +3,7 @@ cask "kothaset" do
   name "kothaset"
   desc "High-quality dataset generation CLI for LLM training"
   homepage "https://github.com/shantoislamdev/kothaset"
-  version "1.1.1"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kothaset" do
   on_macos do
     on_intel do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_darwin_amd64.tar.gz"
-      sha256 "2d09fad5c7e0c047f0b1882329bb45e8387401f7381b5cf7d013dfa2c9a99313"
+      sha256 "822f691646508d0611d035a46b42b400ac333edcb0a7e136b5417a909fd6a339"
     end
     on_arm do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_darwin_arm64.tar.gz"
-      sha256 "01176c4409632c7392f6ffcb1dc3941c60950c3ee5f1e543d2627d8e235cc207"
+      sha256 "ba4c0aead881ba52f6e5af2d52f660dad8ed2d036f817b771e76563bb34ee837"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_linux_amd64.tar.gz"
-      sha256 "32a08541ac237fbe18004f9eb2a5dd9ab46853a5ae077943f318ef8ce9c68f81"
+      sha256 "a55d26136357d833a294be636d9266d03d339f895913abf898b72c33b1910301"
     end
     on_arm do
       url "https://github.com/shantoislamdev/kothaset/releases/download/v#{version}/kothaset_#{version}_linux_arm64.tar.gz"
-      sha256 "132d52219c57f4267aa6589fc8dbb3aa9a4b9a5d894471113b2f9810ed139032"
+      sha256 "5142f93c5d29c17977e2604aec9dbe76b52445f0accb9aeaa8dab16e1813ef62"
     end
   end
 
